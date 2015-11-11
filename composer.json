@@ -38,11 +38,11 @@
 		"source":"https://github.com/MetaModels/bundle_filter"
 	},
 	"require":{
-		"metamodels/filter_checkbox":"*",
-		"metamodels/filter_fromto":"*",
-		"metamodels/filter_range":"*",
-		"metamodels/filter_select":"*",
-		"metamodels/filter_tags":"*",
-		"metamodels/filter_text":"*"
+		"metamodels/filter_checkbox":"~1.0",
+		"metamodels/filter_fromto":"~1.0",
+		"metamodels/filter_range":"~1.0",
+		"metamodels/filter_select":"~1.0",
+		"metamodels/filter_tags":"~1.0",
+		"metamodels/filter_text":"~1.0"
 	}
 }
