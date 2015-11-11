@@ -1,48 +1,41 @@
 {
-	"name":"metamodels/bundle_filter",
-	"description":"MetaModels bundle for filter",
-	"keywords":["contao", "metamodels", "bundle", "metapackage"],
-	"type":"metapackage",
-	"homepage":"http://now.metamodel.me/",
-	"license":"LGPL-3.0+",
-	"authors":[
-		{
-			"name":"Christian Schiffler",
-			"email":"c.schiffler@cyberspectrum.de",
-			"homepage":"http://www.cyberspectrum.de",
-			"role":"Developer"
-		},
-		{
-			"name":"Andreas Isaak",
-			"email":"info@andreas-isaak.de",
-			"homepage":"http://www.andreas-isaak.de",
-			"role":"Developer"
-		},
-		{
-			"name":"Stefan Heimes",
-			"email":"stefan_heimes@hotmail.com",
-			"role":"Developer"
-		},
-		{
-			"name":"Christian de la Haye",
-			"email":"service@delahaye.de",
-			"homepage":"http://www.delahaye.de/",
-			"role":"Developer"
-		}
-	],
-	"support":{
-		"email":"mail@metamodel.me",
-		"issues":"https://github.com/MetaModels/bundle_filter/issues",
-		"wiki":"http://de.contaowiki.org/MetaModels",
-		"irc":"irc://irc.freenode.org/contao.mm",
-		"source":"https://github.com/MetaModels/bundle_filter"
-	},
-	"require":{
-		"metamodels/filter_checkbox":"~1.0",
-		"metamodels/filter_fromto":"~1.0",
-		"metamodels/filter_range":"~1.0",
-		"metamodels/filter_select":"~1.0",
-		"metamodels/filter_tags":"~1.0",
-		"metamodels/filter_text":"~1.0"
-	}
+  "name": "metamodels/bundle_filter",
+  "description": "MetaModels bundle for filter",
+  "keywords": [
+    "contao",
+    "metamodels",
+    "bundle",
+    "metapackage"
+  ],
+  "type": "metapackage",
+  "homepage": "http://now.metamodel.me/",
+  "license": "LGPL-3.0+",
+  "authors": [
+    {
+      "name": "Christian Schiffler",
+      "email": "c.schiffler@cyberspectrum.de",
+      "homepage": "http://www.cyberspectrum.de",
+      "role": "Developer"
+    },
+    {
+      "name": "Stefan Heimes",
+      "email": "stefan_heimes@hotmail.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "mail@metamodel.me",
+    "issues": "https://github.com/MetaModels/bundle_filter/issues",
+    "wiki": "http://de.contaowiki.org/MetaModels",
+    "irc": "irc://irc.freenode.org/contao.mm",
+    "source": "https://github.com/MetaModels/bundle_filter"
+  },
+  "require": {
+    "metamodels/filter_checkbox": "~1.0",
+    "metamodels/filter_fromto": "~1.0",
+    "metamodels/filter_range": "~1.0",
+    "metamodels/filter_select": "~1.0",
+    "metamodels/filter_tags": "~1.0",
+    "metamodels/filter_text": "~1.0"
+  }
 }
