@@ -9,7 +9,7 @@
   ],
   "type": "metapackage",
   "homepage": "http://now.metamodel.me/",
-  "license": "LGPL-3.0+",
+  "license": "LGPL-3.0-or-later",
   "authors": [
     {
       "name": "Christian Schiffler",
@@ -31,11 +31,11 @@
     "source": "https://github.com/MetaModels/bundle_filter"
   },
   "require": {
-    "metamodels/filter_checkbox": "~2.0",
-    "metamodels/filter_fromto": "~2.0",
-    "metamodels/filter_range": "~2.0",
-    "metamodels/filter_select": "~2.0",
-    "metamodels/filter_tags": "~2.0",
-    "metamodels/filter_text": "~2.0"
+    "metamodels/filter_checkbox": "^2.1",
+    "metamodels/filter_fromto": "^2.1",
+    "metamodels/filter_range": "^2.1",
+    "metamodels/filter_select": "^2.1",
+    "metamodels/filter_tags": "^2.1",
+    "metamodels/filter_text": "^2.1"
   }
 }
