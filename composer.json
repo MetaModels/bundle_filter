@@ -39,5 +39,10 @@
     "metamodels/filter_select": "^2.2",
     "metamodels/filter_tags": "^2.2",
     "metamodels/filter_text": "^2.2"
+  },
+  "config": {
+    "allow-plugins": {
+      "contao-components/installer": true
+    }
   }
 }
