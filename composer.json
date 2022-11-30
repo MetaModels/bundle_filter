@@ -8,13 +8,13 @@
     "metapackage"
   ],
   "type": "metapackage",
-  "homepage": "http://now.metamodel.me/",
+  "homepage": "https://now.metamodel.me/",
   "license": "LGPL-3.0-or-later",
   "authors": [
     {
       "name": "Christian Schiffler",
       "email": "c.schiffler@cyberspectrum.de",
-      "homepage": "http://www.cyberspectrum.de",
+      "homepage": "https://www.cyberspectrum.de",
       "role": "Developer"
     },
     {
@@ -26,16 +26,23 @@
   "support": {
     "email": "mail@metamodel.me",
     "issues": "https://github.com/MetaModels/bundle_filter/issues",
-    "wiki": "http://de.contaowiki.org/MetaModels",
+    "wiki": "https://de.contaowiki.org/MetaModels",
     "irc": "irc://irc.freenode.org/contao.mm",
     "source": "https://github.com/MetaModels/bundle_filter"
   },
   "require": {
-    "metamodels/filter_checkbox": "^2.1",
-    "metamodels/filter_fromto": "^2.1",
-    "metamodels/filter_range": "^2.1",
-    "metamodels/filter_select": "^2.1",
-    "metamodels/filter_tags": "^2.1",
-    "metamodels/filter_text": "^2.1"
+    "metamodels/filter_checkbox": "^2.2",
+    "metamodels/filter_fromto": "^2.2",
+    "metamodels/filter_perimetersearch": "^2.2",
+    "metamodels/filter_range": "^2.2",
+    "metamodels/filter_register": "^2.2",
+    "metamodels/filter_select": "^2.2",
+    "metamodels/filter_tags": "^2.2",
+    "metamodels/filter_text": "^2.2"
+  },
+  "config": {
+    "allow-plugins": {
+      "contao-components/installer": true
+    }
   }
 }
